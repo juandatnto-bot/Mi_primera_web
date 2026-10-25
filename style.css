@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: auto;
+}
+body{
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #ebdede;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.pajaros{
+    list-style-type: none;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px 200px 50px 200px;
+    display: flex;
+    gap: 150px;
+    white-space: nowrap;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    padding: 10px;
+    background-color: #d9c9c9;
+}
+
+
+
